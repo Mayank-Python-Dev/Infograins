@@ -55,4 +55,4 @@ and Product both (send postman collection link)
 
 10 . Created API Using DRF I have used APIView Class
 
-
+## Screenshots
