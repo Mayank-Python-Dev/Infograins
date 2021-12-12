@@ -1,0 +1,170 @@
+{% extends 'Task/base.html' %} {% load crispy_forms_tags %} {% block title %}infograins-product{% endblock title %} {% block content %}
+
+
+
+<br>
+<div class="row">
+    <div class="col">
+        <div class="col-md">
+            <div class="card text-center text-white  mb-3" id="total-orders">
+                <div class="card-header">
+                    <h5 class="card-title">Owner</h5>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">{{request.user|capfirst}}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="col-md">
+            <div class="card text-center text-white  mb-3" id="orders-delivered">
+                <div class="card-header">
+                    <h5 class="card-title">Total Products</h5>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">{{getallproductcount}}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="col">
+			<div class="col-md">
+					<div class="card text-center text-white  mb-3" id="orders-pending">
+							<div class="card-header">
+									<h5 class="card-title">Total Categories</h5>
+							</div>
+							<div class="card-body">
+								<h3 class="card-title">2</h3>
+							</div>
+					</div>
+			</div>
+	</div> -->
+
+
+
+
+</div>
+<br>
+<div class="row">
+    <div class="col-md-5">
+        <h5>ADD PRODUCT</h5>
+        <hr>
+
+        <div class="card card-body">
+
+            <form method="post" novalidate>
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-6">
+                        {{ form.name|as_crispy_field }}
+                    </div>
+                    <div class="col-6">
+                        {{ form.code|as_crispy_field }}
+                    </div>
+                    <div class="col-6">
+                        {{ form.price|as_crispy_field }}
+                    </div>
+                    <div class="col-6">
+                        {{ form.manufacture_date|as_crispy_field }}
+                    </div>
+                    <div class="col-6">
+                        {{ form.category|as_crispy_field}}
+                    </div>
+                    <div class="col-6">
+                        {{ form.expiry_date|as_crispy_field }}
+                    </div>
+                </div>
+                <br>
+                <input class="btn float-right btn-outline-info col-lg-12" type=submit value="ADD" />
+            </form>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <h5>LAST 5 PRODUCTS</h5>
+        <hr>
+        {% for message in messages %}
+        <div class="alert alert-danger" role="alert">
+        {{message}}</div>
+        {% endfor %}
+        <div class="card card-body">
+        	<div class="table-responsive">
+            <table class="table table-sm" id="dataTable" width="100%" cellspacing="0">
+            	<thead>
+                <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Manufacture Date</th>
+                    <th scope="col">Product Code</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Update</th>
+                    <th scope="col">Remove</th>
+                </tr>
+                 </thead>
+                 <tbody>
+                {% for product in getproductSU %}
+                <tr>
+                    <td>{{product.name}}</td>
+                    <td>{{product.category.all|join:", "}}</td>
+                    <td>{{product.manufacture_date}}</td>
+                    <td>{{product.code}}</td>
+                    <td>{{product.price}}</td>
+                    <td><a class="btn btn-sm btn-info" href="{% url 'superuser_product_update' product.id %}">Update</a></td>
+                    <td><a class="btn btn-sm btn-danger" href="{% url 'superuser_product_delete' product.id %}">Delete</a></td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<hr>
+<br>
+<!-- <div class="row">
+    <div class="col-md">
+        <div class="card card-body">
+            <h5>Customer:</h5>
+            <hr>
+            <a class="btn btn-outline-info  btn-sm btn-block" href="">Update Customer</a>
+            <a class="btn btn-outline-danger  btn-sm btn-block" href="">Delete Customer</a>
+
+        </div>
+    </div>
+
+    <div class="col-md">
+        <div class="card card-body">
+            <h5>Contact Information</h5>
+            <hr>
+            <p>Email: </p>
+            <p>Phone: </p>
+        </div>
+    </div>
+
+    <div class="col-md">
+        <div class="card card-body">
+            <h5>Total Orders</h5>
+            <hr>
+            <h1 style="text-align: center;padding: 10px"></h1>
+        </div>
+    </div>
+</div> -->
+
+<!-- filter Section-->
+<button type="button" class="btn btn-secondary btn-lg" id="button-click">Click to Explore Django-Filter</button>
+<div class="show_data">
+<div class="row">
+    <div class="col-md-12">
+        <h5>FILTER PRODUCT</h5>
+        <hr>
+        <form method="">
+            {{myfilter.form}}
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+    </div>
+</div>
+</div>
+{% endblock %}
+
+

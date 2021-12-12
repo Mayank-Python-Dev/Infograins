@@ -1,0 +1,43 @@
+{% extends 'Task/base.html' %} {% load crispy_forms_tags %}{% block title %}infograins-product-update{% endblock title %} {% block content %}
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <hr>
+
+        <div class="card card-body">
+
+            <form method="post" novalidate>
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-6">
+                        {{ form.name|as_crispy_field }}
+                    </div>
+                    <div class="col-6">
+                        {{ form.code|as_crispy_field }}
+                    </div>
+                    <div class="col-6">
+                        {{ form.price|as_crispy_field }}
+                    </div>
+                    <div class="col-6">
+                        {{ form.manufacture_date|as_crispy_field }}
+                    </div>
+                    <div class="col-6">
+                        {{ form.category|as_crispy_field }}
+                    </div>
+                    <div class="col-6">
+                        {{ form.expiry_date|as_crispy_field }}
+                    </div>
+                </div>
+                <br>
+                <input class="btn float-right btn-outline-info col-lg-12" type=submit value="UPDATE" />
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock%}
