@@ -56,3 +56,5 @@ and Product both (send postman collection link)
 10 . Created API Using DRF I have used APIView Class
 
 ## Screenshots
+
+![Screenshot (11)](https://user-images.githubusercontent.com/72161636/145722971-e8363dd8-3fde-4623-972d-9f2b42adae3d.png)
