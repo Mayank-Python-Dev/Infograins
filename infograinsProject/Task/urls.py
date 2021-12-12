@@ -13,6 +13,7 @@ urlpatterns = [
 	path('category',category,name='category'),
 	path('category_update/<str:pk>',category_update,name='category_update'),
 	path('category_delete/<str:pk>',category_delete,name='category_delete'),
+	
 	#FOR NON-SUPERUSER
 	path('user_product_view',user_product_view,name='user_product_view'),
 	path('user_category_view',user_category_view,name='user_category_view'),

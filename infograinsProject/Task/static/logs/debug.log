@@ -3154,3 +3154,182 @@ INFO - 2021-12-12 20:37:53,181 - "GET /superuser_product?name=j&code=&price=&man
 INFO - 2021-12-12 20:37:56,250 - "GET /superuser_product?name=j&code=&price=&manufacture_date=&expiry_date= HTTP/1.1" 200 12157
 INFO - 2021-12-12 20:37:58,200 - "GET /superuser_product HTTP/1.1" 200 12594
 INFO - 2021-12-12 20:37:59,194 - "GET /superuser_product HTTP/1.1" 200 12594
+INFO - 2021-12-12 20:47:28,020 - Watching for file changes with StatReloader
+INFO - 2021-12-12 20:47:28,827 - "GET /logout HTTP/1.1" 302 0
+INFO - 2021-12-12 20:47:28,834 - "GET /login HTTP/1.1" 200 4308
+INFO - 2021-12-12 20:47:32,148 - "POST /login HTTP/1.1" 302 0
+INFO - 2021-12-12 20:47:32,295 - "GET /superuser_product HTTP/1.1" 200 11670
+INFO - 2021-12-12 20:47:37,960 - "GET /superuser_product HTTP/1.1" 200 11670
+INFO - 2021-12-12 20:47:42,738 - "GET /superuser_product HTTP/1.1" 200 11670
+INFO - 2021-12-12 20:47:45,987 - "GET /superuser_product HTTP/1.1" 200 11670
+INFO - 2021-12-12 20:47:48,853 - "GET /superuser_product HTTP/1.1" 200 11670
+INFO - 2021-12-12 20:47:52,420 - "GET /superuser_product HTTP/1.1" 200 11670
+INFO - 2021-12-12 20:47:55,600 - "GET /superuser_product HTTP/1.1" 200 11670
+INFO - 2021-12-12 20:47:57,885 - "GET /superuser_product HTTP/1.1" 200 11670
+INFO - 2021-12-12 20:48:10,795 - "GET /superuser_product?name=h&code=&price=&manufacture_date=&expiry_date= HTTP/1.1" 200 11698
+INFO - 2021-12-12 20:48:14,627 - "GET /superuser_product?name=h&code=&price=&manufacture_date=&expiry_date= HTTP/1.1" 200 11698
+INFO - 2021-12-12 20:48:18,866 - "GET /superuser_product?name=h&code=&price=&manufacture_date=&expiry_date= HTTP/1.1" 200 11698
+INFO - 2021-12-12 20:48:20,890 - "GET /logout HTTP/1.1" 302 0
+INFO - 2021-12-12 20:48:20,895 - "GET /login HTTP/1.1" 200 4308
+INFO - 2021-12-12 20:48:22,603 - "GET /admin/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:48:22,678 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2219
+INFO - 2021-12-12 20:48:22,696 - "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:23,193 - "GET /admin/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:48:23,226 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2219
+INFO - 2021-12-12 20:48:26,144 - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:48:26,173 - "GET /admin/ HTTP/1.1" 200 7387
+INFO - 2021-12-12 20:48:26,190 - "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:26,205 - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:32,885 - "GET /admin/auth/group/ HTTP/1.1" 200 7381
+INFO - 2021-12-12 20:48:32,913 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:48:32,935 - "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:34,471 - "GET /admin/auth/group/1/change/ HTTP/1.1" 200 9894
+INFO - 2021-12-12 20:48:34,491 - "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:34,494 - "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:34,496 - "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:34,497 - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:34,498 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:48:34,564 - "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:34,625 - "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:34,675 - "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:34,675 - "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:34,675 - "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:35,968 - "GET /admin/auth/group/1/delete/ HTTP/1.1" 200 6293
+INFO - 2021-12-12 20:48:35,983 - "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO - 2021-12-12 20:48:37,556 - "POST /admin/auth/group/1/delete/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:48:37,601 - "GET /admin/auth/group/ HTTP/1.1" 200 6394
+INFO - 2021-12-12 20:48:37,620 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:48:37,631 - "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO - 2021-12-12 20:50:36,081 - Watching for file changes with StatReloader
+INFO - 2021-12-12 20:50:37,272 - "GET /admin/auth/group/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:50:37,318 - "GET /admin/login/?next=/admin/auth/group/ HTTP/1.1" 200 2241
+INFO - 2021-12-12 20:50:39,675 - "POST /admin/login/?next=/admin/auth/group/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:50:39,739 - "GET /admin/auth/group/ HTTP/1.1" 200 6237
+INFO - 2021-12-12 20:50:39,762 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:50:42,259 - "GET /admin/Task/category/ HTTP/1.1" 200 6697
+INFO - 2021-12-12 20:50:42,280 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:50:43,794 - "GET /admin/Task/category/add/ HTTP/1.1" 200 7659
+INFO - 2021-12-12 20:50:43,811 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:50:44,780 - "GET /admin/Task/category/ HTTP/1.1" 200 6697
+INFO - 2021-12-12 20:50:45,691 - "GET /admin/Task/product/ HTTP/1.1" 200 6714
+INFO - 2021-12-12 20:50:45,712 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:50:46,894 - "GET /admin/Task/product/add/ HTTP/1.1" 200 10849
+INFO - 2021-12-12 20:50:46,913 - "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO - 2021-12-12 20:50:46,914 - "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO - 2021-12-12 20:50:46,916 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:50:46,958 - "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO - 2021-12-12 20:50:48,708 - "GET /admin/Task/category/ HTTP/1.1" 200 6697
+INFO - 2021-12-12 20:50:48,738 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:00,733 - "GET /admin/Task/product/ HTTP/1.1" 200 6714
+INFO - 2021-12-12 20:51:00,752 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:01,748 - "GET /admin/auth/group/ HTTP/1.1" 200 6237
+INFO - 2021-12-12 20:51:01,768 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:03,509 - "GET /admin/auth/group/add/ HTTP/1.1" 200 9636
+INFO - 2021-12-12 20:51:03,529 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:06,323 - "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:51:06,398 - "GET /admin/auth/group/ HTTP/1.1" 200 7578
+INFO - 2021-12-12 20:51:06,418 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:07,087 - "GET /admin/Task/product/ HTTP/1.1" 200 6714
+INFO - 2021-12-12 20:51:07,109 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:08,554 - "GET /admin/Task/product/add/ HTTP/1.1" 200 10849
+INFO - 2021-12-12 20:51:08,574 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:10,139 - "GET /admin/auth/user/ HTTP/1.1" 200 9561
+INFO - 2021-12-12 20:51:10,160 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:10,179 - "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO - 2021-12-12 20:51:11,824 - "GET /admin/auth/user/add/ HTTP/1.1" 200 8359
+INFO - 2021-12-12 20:51:11,844 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:14,190 - "GET /admin/Task/product/ HTTP/1.1" 200 6714
+INFO - 2021-12-12 20:51:14,208 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:16,594 - "GET /admin/Task/product/add/ HTTP/1.1" 200 10849
+INFO - 2021-12-12 20:51:16,613 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:22,789 - "GET /admin/Task/category/ HTTP/1.1" 200 6697
+INFO - 2021-12-12 20:51:22,813 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:23,950 - "GET /admin/Task/category/add/ HTTP/1.1" 200 7659
+INFO - 2021-12-12 20:51:23,972 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:31,998 - "POST /admin/Task/category/add/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:51:32,064 - "GET /admin/Task/category/ HTTP/1.1" 200 8513
+INFO - 2021-12-12 20:51:32,087 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:33,357 - "GET /admin/Task/category/add/ HTTP/1.1" 200 7659
+INFO - 2021-12-12 20:51:33,380 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:46,332 - "POST /admin/Task/category/add/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:51:46,393 - "GET /admin/Task/category/ HTTP/1.1" 200 8853
+INFO - 2021-12-12 20:51:46,419 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:48,507 - "GET /admin/Task/category/add/ HTTP/1.1" 200 7659
+INFO - 2021-12-12 20:51:48,526 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:51:54,119 - "POST /admin/Task/category/add/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:51:54,210 - "GET /admin/Task/category/ HTTP/1.1" 200 9172
+INFO - 2021-12-12 20:51:54,233 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:52:12,611 - "GET /admin/Task/product/ HTTP/1.1" 200 7126
+INFO - 2021-12-12 20:52:12,643 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:52:13,716 - "GET /admin/Task/product/add/ HTTP/1.1" 200 10963
+INFO - 2021-12-12 20:52:13,736 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:53:16,466 - "POST /admin/Task/product/add/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:53:16,530 - "GET /admin/Task/product/ HTTP/1.1" 200 9185
+INFO - 2021-12-12 20:53:16,553 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:53:19,192 - "GET /admin/Task/product/ HTTP/1.1" 200 8986
+INFO - 2021-12-12 20:53:19,211 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:53:20,352 - "GET /admin/Task/product/add/ HTTP/1.1" 200 10963
+INFO - 2021-12-12 20:53:20,370 - "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO - 2021-12-12 20:53:20,373 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:53:37,061 - "POST /admin/Task/product/add/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:53:37,134 - "GET /admin/Task/product/ HTTP/1.1" 200 9615
+INFO - 2021-12-12 20:53:37,157 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:53:38,710 - "GET /admin/Task/product/ HTTP/1.1" 200 9414
+INFO - 2021-12-12 20:53:38,729 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:53:40,051 - "GET /admin/Task/product/add/ HTTP/1.1" 200 10963
+INFO - 2021-12-12 20:53:40,071 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:55:06,116 - "POST /admin/Task/product/add/ HTTP/1.1" 302 0
+INFO - 2021-12-12 20:55:06,196 - "GET /admin/Task/product/ HTTP/1.1" 200 10020
+INFO - 2021-12-12 20:55:06,224 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO - 2021-12-12 20:56:50,051 - Watching for file changes with StatReloader
+INFO - 2021-12-12 22:40:10,148 - "GET /categoryapi HTTP/1.1" 200 79
+INFO - 2021-12-12 22:40:29,816 - "GET /categoryapi/1 HTTP/1.1" 200 29
+INFO - 2021-12-12 22:40:45,555 - "GET /productapi HTTP/1.1" 200 389
+INFO - 2021-12-12 22:40:58,479 - "GET /productapi/1 HTTP/1.1" 200 127
+INFO - 2021-12-12 22:41:24,909 - "GET /categoryapi HTTP/1.1" 200 79
+INFO - 2021-12-12 22:41:34,133 - "GET /categoryapi/1 HTTP/1.1" 200 29
+INFO - 2021-12-12 22:41:47,346 - "GET /categoryapi HTTP/1.1" 200 79
+INFO - 2021-12-12 22:41:51,893 - "GET /categoryapi/1 HTTP/1.1" 200 29
+INFO - 2021-12-12 22:42:11,947 - "GET /productapi HTTP/1.1" 200 389
+INFO - 2021-12-12 22:42:23,820 - "GET /productapi/1 HTTP/1.1" 200 127
+INFO - 2021-12-12 22:43:07,900 - "GET /categoryapi/1 HTTP/1.1" 200 29
+ERROR - 2021-12-12 22:43:25,934 - Internal Server Error: /categoryapi/1
+Traceback (most recent call last):
+  File "C:\Users\mayan\anaconda3\envs\infograins\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\mayan\anaconda3\envs\infograins\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mayan\anaconda3\envs\infograins\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\mayan\anaconda3\envs\infograins\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\mayan\anaconda3\envs\infograins\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\mayan\anaconda3\envs\infograins\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\mayan\anaconda3\envs\infograins\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\mayan\anaconda3\envs\infograins\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\infograins\infograinsProject\Task\views.py", line 261, in put
+    serializer.save(owner = request.user)
+  File "C:\Users\mayan\anaconda3\envs\infograins\lib\site-packages\rest_framework\serializers.py", line 200, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "C:\Users\mayan\anaconda3\envs\infograins\lib\site-packages\rest_framework\serializers.py", line 981, in update
+    setattr(instance, attr, value)
+  File "C:\Users\mayan\anaconda3\envs\infograins\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<django.contrib.auth.models.AnonymousUser object at 0x000001F54B7FBAF0>": "Category.owner" must be a "User" instance.
+ERROR - 2021-12-12 22:43:25,939 - "PUT /categoryapi/1 HTTP/1.1" 500 105748
+INFO - 2021-12-12 22:44:57,503 - D:\infograins\infograinsProject\Task\urls.py changed, reloading.
+INFO - 2021-12-12 22:44:58,362 - Watching for file changes with StatReloader
+INFO - 2021-12-12 22:45:05,235 - D:\infograins\infograinsProject\Task\views.py changed, reloading.
+INFO - 2021-12-12 22:45:05,860 - Watching for file changes with StatReloader
+INFO - 2021-12-12 22:45:10,594 - D:\infograins\infograinsProject\Task\views.py changed, reloading.
+INFO - 2021-12-12 22:45:11,187 - Watching for file changes with StatReloader
+INFO - 2021-12-12 22:45:15,861 - D:\infograins\infograinsProject\Task\views.py changed, reloading.
+INFO - 2021-12-12 22:45:16,455 - Watching for file changes with StatReloader
+INFO - 2021-12-12 22:45:23,282 - D:\infograins\infograinsProject\Task\views.py changed, reloading.
+INFO - 2021-12-12 22:45:23,875 - Watching for file changes with StatReloader
+INFO - 2021-12-12 22:45:25,453 - D:\infograins\infograinsProject\Task\views.py changed, reloading.
+INFO - 2021-12-12 22:45:26,094 - Watching for file changes with StatReloader

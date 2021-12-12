@@ -236,7 +236,6 @@ def user_category_view(request):
 class CategoryAPI(APIView):
 	def get(self,request,pk=None,format=None):
 		id=pk
-		print(id)
 		if id is not None:
 			getallcategory = Category.objects.get(id=id)
 			serializer = CategorySerializer(getallcategory)
@@ -272,7 +271,6 @@ class CategoryAPI(APIView):
 class ProductAPI(APIView):
 	def get(self,request,pk=None,format=None):
 		id=pk
-		print(id)
 		if id is not None:
 			getallproduct = Product.objects.get(id=id)
 			serializer = ProductSerializer(getallproduct)
