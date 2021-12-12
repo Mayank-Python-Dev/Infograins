@@ -55,4 +55,28 @@ and Product both (send postman collection link)
 
 10 . Created API Using DRF I have used APIView Class
 
+## Screenshots
 
+![Screenshot (11)](https://user-images.githubusercontent.com/72161636/145722971-e8363dd8-3fde-4623-972d-9f2b42adae3d.png)
+
+![Screenshot (12)](https://user-images.githubusercontent.com/72161636/145723020-0bea1ac2-fdbc-4742-820b-ee4568d59456.png)
+
+![Screenshot (13)](https://user-images.githubusercontent.com/72161636/145723037-cae31a82-9a7f-487c-96c4-aaf50cd710a7.png)
+
+![Screenshot (14)](https://user-images.githubusercontent.com/72161636/145723050-dc12c456-6122-4e4f-9fc3-3e626315d456.png)
+
+
+### To work with this project
+
+1 . you have to install the dependencies first which i have created(requirement.txt)
+
+CMD : pip install -r requirement.txt
+
+2 . if you want to restore the db i have created a task.json file 
+
+CMD : python manage.py loaddata task.json
+
+## NOTE:
+create a object of group (superuser)
+
+![Screenshot (15)](https://user-images.githubusercontent.com/72161636/145723276-96e3b2ed-f4d1-4719-ae17-92d1dd5b0158.png)
