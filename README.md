@@ -68,9 +68,12 @@ and Product both (send postman collection link)
 
 ### To work with this project
 
-1 . you have to install the dependencies first which i have created(requirement.txt) 
+1 . you have to install the dependencies first which i have created(requirement.txt)
+
 CMD : pip install -r requirement.txt
+
 2 . if you want to restore the db i have created a task.json file 
+
 CMD : python manage.py loaddata task.json
 
 ## NOTE:
