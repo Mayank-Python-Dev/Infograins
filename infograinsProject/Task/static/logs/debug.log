@@ -3333,3 +3333,6 @@ INFO - 2021-12-12 22:45:23,282 - D:\infograins\infograinsProject\Task\views.py c
 INFO - 2021-12-12 22:45:23,875 - Watching for file changes with StatReloader
 INFO - 2021-12-12 22:45:25,453 - D:\infograins\infograinsProject\Task\views.py changed, reloading.
 INFO - 2021-12-12 22:45:26,094 - Watching for file changes with StatReloader
+INFO - 2021-12-12 23:10:43,602 - Watching for file changes with StatReloader
+INFO - 2021-12-12 23:10:45,241 - "GET /admin/auth/group/ HTTP/1.1" 200 7381
+INFO - 2021-12-12 23:10:45,394 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
